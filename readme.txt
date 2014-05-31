@@ -1,18 +1,35 @@
-=== WordPress Colorbox ===
+=== WordPress Colorbox Lightbox ===
 Contributors: naa986
 Donate link: http://noorsplugin.com/
-Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, photo, photos, picture, javascript, jquery, media
+Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, videos, photo, photos, picture, javascript, jquery, media, links, modal, template, theme, Style, photography, lightview
 Requires at least: 3.0
-Tested up to: 3.8
-Stable tag: 1.0
+Tested up to: 3.9
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Easily pop up media in lightbox.
+View image, video (YouTube, Vimeo), page, inline HTML, custom content in lightbox
 
 == Description ==
 
-WP Colorbox plugin allows users to pop up content in lightbox using the popular jQuery ColorBox library. You can embed various media types including image, YouTube, Vimeo video.
+WP Colorbox plugin is a simple lightbox tool for WordPress. It allows users to pop up content in lightbox using the popular jQuery ColorBox library. They can also view the larger version of a particular media file without leaving the page.
+
+= Requirements =
+
+* Latest version of WordPress
+
+= Feature =
+
+* Beautiful lightbox popup style
+* Flexiblity of creating your own lightbox link
+* Pop up custom/HTML content in lightbox
+* Trigger lightbox from either a text/image link
+* Comptaiblie with WordPress multisite
+* Add lightbox to a YouTube or Vimeo video link
+* Enable lightbox functionality on your site which supports all major browsers
+* Use a simple shortcode anywhere on your site (Post, Page, Homepage etc.)to pop up a media file in lightbox
+* Apply lightbox effect on images inserted into WordPress post/page
+* Open external page in lightbox using iframe
 
 = WP Colorbox Plugin Usage =
 
@@ -61,6 +78,9 @@ For screenshots please visit the [WordPress Colorbox](http://noorsplugin.com/201
 none
 
 == Changelog ==
+
+= 1.0.1 =
+* WP Colorbox is now compatible with WordPress 3.9
 
 = 1.0 =
 * First commit
