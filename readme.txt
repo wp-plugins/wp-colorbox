@@ -4,7 +4,7 @@ Donate link: http://noorsplugin.com/
 Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, videos, photo, photos, picture, javascript, jquery, media, links, modal, template, theme, Style, photography, lightview
 Requires at least: 3.0
 Tested up to: 3.9
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -30,6 +30,7 @@ WP Colorbox plugin is a simple lightbox tool for WordPress. It allows users to p
 * Use a simple shortcode anywhere on your site (Post, Page, Homepage etc.)to pop up a media file in lightbox
 * Apply lightbox effect on images inserted into WordPress post/page
 * Open external page in lightbox using iframe
+* Responsive lightbox popup which works on mobile devices. Also it fits perfectly on smaller screens.
 
 = WP Colorbox Plugin Usage =
 
@@ -78,6 +79,9 @@ For screenshots please visit the [WordPress Colorbox](http://noorsplugin.com/201
 none
 
 == Changelog ==
+
+= 1.0.2 =
+* Lightbox window is now responsive
 
 = 1.0.1 =
 * WP Colorbox is now compatible with WordPress 3.9

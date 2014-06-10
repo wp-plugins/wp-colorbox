@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Colorbox
-Version: 1.0.1
+Version: 1.0.2
 Plugin URI: http://noorsplugin.com/2014/01/11/wordpress-colorbox-plugin/
 Author: naa986
 Author URI: http://noorsplugin.com/
