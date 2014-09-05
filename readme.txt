@@ -1,7 +1,7 @@
 === WordPress Colorbox Lightbox ===
 Contributors: naa986
 Donate link: http://noorsplugin.com/
-Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, videos, photo, photos, picture, javascript, jquery, media, links, modal, template, theme, Style, photography, lightview
+Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, videos, photo, photos, picture, javascript, jquery, media, links, modal, template, theme, Style, photography, lightview 
 Requires at least: 3.0
 Tested up to: 4.0
 Stable tag: 1.0.2
