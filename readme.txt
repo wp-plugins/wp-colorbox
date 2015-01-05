@@ -4,7 +4,7 @@ Donate link: http://noorsplugin.com/
 Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, videos, photo, photos, picture, javascript, jquery, media, links, modal, template, theme, Style, photography, lightview 
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -79,6 +79,9 @@ For screenshots please visit the [WordPress Colorbox](http://noorsplugin.com/201
 none
 
 == Changelog ==
+
+= 1.0.4 =
+* colorbox shortcodes can now be embedded in a text widget
 
 = 1.0.3 =
 * Lightbox now opens full-sized images

@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: WP Colorbox
-Version: 1.0.3
+Version: 1.0.4
 Plugin URI: http://noorsplugin.com/2014/01/11/wordpress-colorbox-plugin/
 Author: naa986
 Author URI: http://noorsplugin.com/
@@ -13,7 +13,7 @@ if(!class_exists('WP_COLORBOX'))
 {
     class WP_COLORBOX
     {
-        var $plugin_version = '1.0.3';
+        var $plugin_version = '1.0.4';
         var $plugin_url;
         var $plugin_path;
         function __construct()
@@ -34,6 +34,10 @@ if(!class_exists('WP_COLORBOX'))
             }
             //add_action('admin_menu', array( &$this, 'add_options_menu' ));
             add_shortcode('wp_colorbox_media','wp_colorbox_media_handler');
+            //allows shortcode execution in the widget, excerpt and content
+            add_filter('widget_text', 'do_shortcode');
+            add_filter('the_excerpt', 'do_shortcode', 11);
+            add_filter('the_content', 'do_shortcode', 11);
         }
         function plugin_scripts()
         {
