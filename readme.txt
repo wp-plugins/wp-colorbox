@@ -54,6 +54,11 @@ here, url is the link to the media file that you wish to open in lightbox and hy
 
 For detailed documentation please visit the [WordPress Colorbox](http://noorsplugin.com/2014/01/11/wordpress-colorbox-plugin/) plugin page
 
+= Recommended Reading =
+
+* WordPress Colorbox [Documentation](http://noorsplugin.com/2014/01/11/wordpress-colorbox-plugin/)
+* My Other [Free WordPress Plugins](http://noorsplugin.com/wordpress-plugins/)
+
 == Installation ==
 
 1. Go to the Add New plugins screen in your WordPress Dashboard
