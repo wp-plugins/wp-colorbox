@@ -4,7 +4,7 @@ Donate link: http://noorsplugin.com/
 Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, videos, photo, photos, picture, javascript, jquery, media, links, modal, template, theme, Style, photography, lightview 
 Requires at least: 3.0
 Tested up to: 4.1
-Stable tag: 1.0.4
+Stable tag: 1.0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -52,6 +52,10 @@ here, url is the link to the media file that you wish to open in lightbox and hy
 
 `[wp_colorbox_media url="http://www.youtube.com/embed/1284237" type="vimeo" hyperlink="click here to pop up vimeo video"]`
 
+*Show Title in lightbox*
+
+`[wp_colorbox_media url="http://example.com/wp-content/uploads/images/overlay.jpg" title="overlay image" type="image" hyperlink="click here to pop up image"]`
+
 For detailed documentation please visit the [WordPress Colorbox](http://noorsplugin.com/2014/01/11/wordpress-colorbox-plugin/) plugin page
 
 = Recommended Reading =
@@ -84,6 +88,9 @@ For screenshots please visit the [WordPress Colorbox](http://noorsplugin.com/201
 none
 
 == Changelog ==
+
+= 1.0.5 =
+* Added a new shortcode parameter to show the title of a media in lightbox
 
 = 1.0.4 =
 * colorbox shortcodes can now be embedded in a text widget
