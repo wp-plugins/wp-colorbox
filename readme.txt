@@ -4,7 +4,7 @@ Donate link: http://noorsplugin.com/
 Tags: lightbox, overlay, colorbox, image, images, gallery, youtube, vimeo, video, videos, photo, photos, picture, javascript, jquery, media, links, modal, template, theme, Style, photography, lightview 
 Requires at least: 3.0
 Tested up to: 4.2
-Stable tag: 1.0.5
+Stable tag: 1.0.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -56,6 +56,16 @@ here, url is the link to the media file that you wish to open in lightbox and hy
 
 `[wp_colorbox_media url="http://example.com/wp-content/uploads/images/overlay.jpg" title="overlay image" type="image" hyperlink="click here to pop up image"]`
 
+*Apply Custom CSS*
+
+You can specify your own CSS class in the shortcode to customize a text/image link.
+
+`[wp_colorbox_media url="http://www.youtube.com/embed/nmp3Ra3Yj24" type="youtube" hyperlink="click here to pop up youtube video" class="custom_class"]`
+
+Multiple CSS classes can be separated with a space. For example:
+
+`[wp_colorbox_media url="http://www.youtube.com/embed/nmp3Ra3Yj24" type="youtube" hyperlink="click here to pop up youtube video" class="custom_class custom_class2"]`
+
 For detailed documentation please visit the [WordPress Colorbox](http://noorsplugin.com/2014/01/11/wordpress-colorbox-plugin/) plugin page
 
 = Recommended Reading =
@@ -88,6 +98,9 @@ For screenshots please visit the [WordPress Colorbox](http://noorsplugin.com/201
 none
 
 == Changelog ==
+
+= 1.0.6 =
+* Added a new shortcode parameter to apply custom CSS classes on a text/image link
 
 = 1.0.5 =
 * Added a new shortcode parameter to show the title of a media in lightbox
